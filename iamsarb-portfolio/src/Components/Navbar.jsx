@@ -31,15 +31,14 @@ import Work from './Work';
 import { Button, Grid } from '@mui/material';
 import   { Link } from 'react-router-dom';  
 
-
 function Navbar() {
 
   return (
         <>
-          <Grid container spacing={4}>
+           <Grid container spacing={4}  style = {{justifyContent:'center',backgroundColor:'#d9d7d7'}}>
 
               <Grid item xs = {4}>
-                <Button variant='text'>  <Link to = "/" style = {{textDecoration:'none'}}> iamsarb_001  </Link>
+                <Button variant='text'>  <Link to = "/" style = {{textDecoration:'none',fontSize:'18px'}}> iamsarb_001  </Link>
                 </Button>
               </Grid>
 
@@ -68,8 +67,8 @@ function Navbar() {
                 </Button>
               </Grid>
 
-              <Grid item xs={2}>
-                <Button variant='contained'>  <Link to = "/" style = {{textDecoration:'none'}}> Resume </Link>
+              <Grid item xs={2} style = {{textAlign:'center'}} >
+                <Button variant='contained'>  <Link to = "" style = {{textDecoration:'none'}}> Resume </Link>
                 </Button>
               </Grid>
 

@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
        <Navbar />
-    <div className="App">
+    <div className="App" style = {{margin:'1% 1%'}}>
         <Routes>
               <Route exact path = "/"   element = {<Home />}>   </Route>
               <Route  path = "/about"   element = {<About />}>   </Route>
