@@ -10,9 +10,14 @@ const About = () => {
   return (
     <div style = {{margin:'1% 3%'}}> 
          <div className = "about-section">
+
+                <div className="about-text-section" style = {{textAlign:'center',padding:'4%'}}>
+                     <div style = {{fontSize:'38px'}}> About   <span style = {{fontSize:'30px',color:'red'}}>  me!  </span> </div>
+                </div>
+
             <Stack direction = "row" spacing = {4}>
 
-              <Card sx={{ maxWidth: 345,borderRadius:'15px' }}>
+              <Card sx={{ maxWidth: 300,borderRadius:'15px' }}>
                 <CardMedia
                   sx={{ height: 200 }}
                   image="/src/assets/web-designer.png"
@@ -29,7 +34,7 @@ const About = () => {
                 </CardContent>
               </Card>
 
-              <Card sx={{ maxWidth: 345 ,borderRadius:'15px' }}>
+              <Card sx={{ maxWidth: 300 ,borderRadius:'15px' }}>
                 <CardMedia
                   sx={{ height: 200 }}
                   image="/src/assets/React -dev.png"
@@ -47,7 +52,7 @@ const About = () => {
                 </CardContent>
               </Card>
 
-              <Card sx={{ maxWidth: 345 , borderRadius:'15px'}}>
+              <Card sx={{ maxWidth: 300 , borderRadius:'15px'}}>
                 <CardMedia
                   sx={{ height: 200 }}
                   image="/src/assets/Front-end.png"
